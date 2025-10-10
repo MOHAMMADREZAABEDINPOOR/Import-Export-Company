@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تماس با ما - شرکت صادرات پیشرو</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>شرکت صادرات پیشرو</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">خانه</a></li>
+                <li><a href="about.html">درباره ما</a></li>
+                <li><a href="products.html">محصولات</a></li>
+                <li><a href="services.html">خدمات</a></li>
+                <li><a href="contact.html" class="active">تماس با ما</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1>تماس با ما</h1>
+                <p>آماده پاسخگویی به سوالات و درخواست‌های شما هستیم</p>
+                <div class="breadcrumb">
+                    <a href="index.html">خانه</a>
+                    <span>/</span>
+                    <span>تماس با ما</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section class="contact-info">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-card fade-in-up">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>آدرس دفتر مرکزی</h3>
+                    <p>تهران، خیابان ولیعصر، پلاک ۱۲۳</p>
+                    <p>کد پستی: ۱۹۶۶۹۱۳۴۷۱</p>
+                </div>
+                <div class="contact-card fade-in-up">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>تلفن تماس</h3>
+                    <p>۰۲۱-۱۲۳۴۵۶۷۸</p>
+                    <p>۰۹۱۲۳۴۵۶۷۸۹</p>
+                </div>
+                <div class="contact-card fade-in-up">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>ایمیل</h3>
+                    <p>info@exportcompany.ir</p>
+                    <p>sales@exportcompany.ir</p>
+                </div>
+                <div class="contact-card fade-in-up">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>ساعات کاری</h3>
+                    <p>شنبه تا پنج‌شنبه: ۸:۰۰ - ۱۸:۰۰</p>
+                    <p>جمعه: ۹:۰۰ - ۱۴:۰۰</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form & Map -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-form-container fade-in-left">
+                    <h2>ارسال پیام</h2>
+                    <p>فرم زیر را پر کنید تا در اسرع وقت با شما تماس بگیریم</p>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">نام و نام خانوادگی *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">ایمیل *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">شماره تلفن *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="company">نام شرکت</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">موضوع پیام *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">انتخاب کنید</option>
+                                <option value="product">سوال درباره محصول</option>
+                                <option value="price">استعلام قیمت</option>
+                                <option value="service">درخواست خدمات</option>
+                                <option value="partnership">همکاری تجاری</option>
+                                <option value="other">سایر موارد</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">پیام شما *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="پیام خود را اینجا بنویسید..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <span class="checkmark"></span>
+                                مایل به دریافت اخبار و اطلاعیه‌های شرکت هستم
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            ارسال پیام
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-map-container fade-in-right">
+                    <h2>موقعیت ما</h2>
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p>نقشه دفتر مرکزی</p>
+                        <p>تهران، خیابان ولیعصر، پلاک ۱۲۳</p>
+                    </div>
+                    <div class="map-info">
+                        <div class="info-item">
+                            <i class="fas fa-subway"></i>
+                            <div>
+                                <h4>دسترسی با مترو</h4>
+                                <p>ایستگاه ولیعصر - خط ۱</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-car"></i>
+                            <div>
+                                <h4>دسترسی با خودرو</h4>
+                                <p>پارکینگ عمومی در نزدیکی</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-bus"></i>
+                            <div>
+                                <h4>دسترسی با اتوبوس</h4>
+                                <p>ایستگاه ولیعصر - خطوط مختلف</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Departments -->
+    <section class="departments">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2>بخش‌های مختلف</h2>
+                <p>تماس مستقیم با بخش‌های تخصصی ما</p>
+            </div>
+            <div class="departments-grid">
+                <div class="department-card fade-in-up">
+                    <div class="department-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>بخش فروش</h3>
+                    <p>درخواست قیمت و اطلاعات محصولات</p>
+                    <div class="department-contact">
+                        <p><i class="fas fa-phone"></i> ۰۲۱-۱۲۳۴۵۶۷۹</p>
+                        <p><i class="fas fa-envelope"></i> sales@exportcompany.ir</p>
+                    </div>
+                </div>
+                <div class="department-card fade-in-up">
+                    <div class="department-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>پشتیبانی فنی</h3>
+                    <p>پشتیبانی و راهنمایی فنی</p>
+                    <div class="department-contact">
+                        <p><i class="fas fa-phone"></i> ۰۲۱-۱۲۳۴۵۶۸۰</p>
+                        <p><i class="fas fa-envelope"></i> support@exportcompany.ir</p>
+                    </div>
+                </div>
+                <div class="department-card fade-in-up">
+                    <div class="department-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>بخش همکاری</h3>
+                    <p>درخواست همکاری و شراکت</p>
+                    <div class="department-contact">
+                        <p><i class="fas fa-phone"></i> ۰۲۱-۱۲۳۴۵۶۸۱</p>
+                        <p><i class="fas fa-envelope"></i> partnership@exportcompany.ir</p>
+                    </div>
+                </div>
+                <div class="department-card fade-in-up">
+                    <div class="department-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <h3>روابط عمومی</h3>
+                    <p>اخبار، اطلاعیه‌ها و روابط عمومی</p>
+                    <div class="department-contact">
+                        <p><i class="fas fa-phone"></i> ۰۲۱-۱۲۳۴۵۶۸۲</p>
+                        <p><i class="fas fa-envelope"></i> pr@exportcompany.ir</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Social Media -->
+    <section class="social-media">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2>شبکه‌های اجتماعی</h2>
+                <p>ما را در شبکه‌های اجتماعی دنبال کنید</p>
+            </div>
+            <div class="social-grid">
+                <div class="social-card fade-in-up">
+                    <div class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3>اینستاگرام</h3>
+                    <p>@exportcompany.ir</p>
+                    <a href="#" class="social-link">دنبال کنید</a>
+                </div>
+                <div class="social-card fade-in-up">
+                    <div class="social-icon">
+                        <i class="fab fa-telegram"></i>
+                    </div>
+                    <h3>تلگرام</h3>
+                    <p>@exportcompany</p>
+                    <a href="#" class="social-link">عضویت در کانال</a>
+                </div>
+                <div class="social-card fade-in-up">
+                    <div class="social-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>واتساپ</h3>
+                    <p>۰۹۱۲۳۴۵۶۷۸۹</p>
+                    <a href="#" class="social-link">ارسال پیام</a>
+                </div>
+                <div class="social-card fade-in-up">
+                    <div class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h3>لینکدین</h3>
+                    <p>Export Company</p>
+                    <a href="#" class="social-link">اتصال</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section fade-in-up">
+                    <h3>شرکت صادرات پیشرو</h3>
+                    <p>پیشرو در صادرات و تجارت بین‌المللی محصولات ایرانی</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section fade-in-up">
+                    <h3>لینک‌های مفید</h3>
+                    <ul>
+                        <li><a href="about.html">درباره ما</a></li>
+                        <li><a href="products.html">محصولات</a></li>
+                        <li><a href="services.html">خدمات</a></li>
+                        <li><a href="contact.html">تماس با ما</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section fade-in-up">
+                    <h3>تماس سریع</h3>
+                    <p><i class="fas fa-phone"></i> ۰۲۱-۱۲۳۴۵۶۷۸</p>
+                    <p><i class="fas fa-envelope"></i> info@exportcompany.ir</p>
+                    <p><i class="fas fa-map-marker-alt"></i> تهران، خیابان ولیعصر</p>
+                </div>
+            </div>
+            <div class="footer-bottom fade-in-up">
+                <p>&copy; ۱۴۰۴ شرکت صادرات پیشرو. تمامی حقوق محفوظ است.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+</html>
