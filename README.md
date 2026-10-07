@@ -1,184 +1,88 @@
-# 🚀 Export Company Website
+<div align="center">
 
-A modern, responsive website for an international export company specializing in Iranian products and global trade services.
+<img src="assets/readme/hero.gif" width="1200" alt="TRADE &amp; CONNECTION — rotating 3D geometry" />
 
-## 🌟 Features
+**[English](README.md) · [فارسی](README.fa.md)**
 
-- **📱 Fully Responsive Design** - Works perfectly on all devices
-- **🌍 International Trade Focus** - Specialized in export services
-- **🎨 Modern UI/UX** - Clean, professional design with smooth animations
-- **🇮🇷 Persian Language Support** - RTL layout with Vazirmatn font
-- **⚡ Fast Performance** - Optimized for speed and SEO
-- **📧 Contact Forms** - Interactive contact and inquiry forms
-- **📊 Statistics Dashboard** - Company achievements and metrics
-- **🏆 Certifications Display** - International quality standards
+<img src="assets/readme/identity.svg" width="1200" alt="web / English and Persian documentation" />
 
-## 🛍️ Product Categories
+</div>
 
-- **🏭 Industrial Products** - CNC machines, cutting tools, measuring equipment
-- **🌱 Agricultural Products** - Saffron, pistachios, pomegranates
-- **🎨 Handicrafts** - Handmade carpets, enamel work, inlay art
-- **🧪 Chemical Products** - Polyester resins, industrial paints, catalysts
-- **👕 Textiles** - Cotton fabrics, men's and women's clothing
-- **🏥 Medical Equipment** - Diagnostic, surgical, and hospital equipment
+# TRADE & CONNECTION
 
-## 🚢 Services Offered
+A multi-page corporate website for an import/export company, implemented with HTML, CSS and JavaScript. The local source folder is `Mr.Amirhosseini`.
 
-- **🌊 International Shipping** - Sea, air, and land transportation
-- **📋 Legal & Customs Consulting** - Export regulations and customs clearance
-- **📈 Market Analysis** - Business intelligence and marketing strategies
-- **📜 Certifications** - ISO, CE, FDA, Halal certifications
-- **🏪 Warehousing** - Professional storage and packaging
-- **🤝 Business Consulting** - Investment and strategic planning
+[GitHub](https://github.com/MOHAMMADREZAABEDINPOOR/Import-Export-Company) · [PIMX / Profile](https://github.com/MOHAMMADREZAABEDINPOOR) · [Static artwork](assets/readme/hero.png)
 
-## 🏢 Company Highlights
+## Features
 
-- **15+ Years** of experience in international trade
-- **40+ Countries** served worldwide
-- **500+ Products** exported successfully
-- **1000+ Satisfied** international customers
-- **24/7 Support** for all clients
+- Home, about, products, services and contact pages
+- Separate styles and scripts for individual pages
+- Persian text and right-to-left presentation
+- Animated navigation and responsive visual sections
 
-## 🛠️ Technologies Used
+## Stack
 
-- **HTML5** - Semantic markup
-- **CSS3** - Modern styling with animations
-- **JavaScript** - Interactive functionality
-- **Font Awesome** - Professional icons
-- **Google Fonts** - Vazirmatn Persian font
-- **Responsive Design** - Mobile-first approach
+| Tool | Version / source |
+|---|---|
+| HTML / CSS / JavaScript | `static files` |
 
-## 📁 Project Structure
+## Getting started
 
-```
-├── index.html          # Homepage
-├── about.html          # About company
-├── products.html       # Product catalog
-├── services.html       # Services offered
-├── contact.html        # Contact information
-├── styles.css          # Main stylesheet
-├── script.js           # Main JavaScript
-├── index.css           # Homepage styles
-├── about.css           # About page styles
-├── products.css        # Products page styles
-├── services.css        # Services page styles
-├── contact.css         # Contact page styles
-├── index.js            # Homepage scripts
-├── about.js            # About page scripts
-├── products.js         # Products page scripts
-├── services.js         # Services page scripts
-└── contact.js          # Contact page scripts
+A modern browser; Python is optional for the local HTTP server.
+
+```bash
+git clone https://github.com/MOHAMMADREZAABEDINPOOR/Import-Export-Company.git
+cd Import-Export-Company
+
+python -m http.server 8000
 ```
 
-## 🌐 Live Demo
+## Configuration
 
-Visit the website to explore our services and products:
-- **Homepage**: Company overview and key statistics
-- **About**: Company history, team, and achievements
-- **Products**: Detailed product catalog with specifications
-- **Services**: Comprehensive export and trade services
-- **Contact**: Multiple contact methods and inquiry forms
+No standard environment template is defined. Standalone exercises need no external configuration; inspect any service constants or paths in the source before running.
 
-## 📱 Responsive Design
+## Usage
 
-The website is fully responsive and optimized for:
-- 📱 Mobile devices (320px+)
-- 📱 Tablets (768px+)
-- 💻 Desktop computers (1024px+)
-- 🖥️ Large screens (1200px+)
+Open index.html through a local HTTP server and navigate the product/service pages. Update company details and contact destinations before hosting.
 
-## 🎯 Key Sections
+## Project structure
 
-### Homepage Features
-- Hero section with company statistics
-- Product showcase with categories
-- Service overview with benefits
-- Customer testimonials
-- Certification display
-- Contact information
+| Path | Role |
+|---|---|
+| [`assets/`](assets/) | Brand/media/README assets |
+| [`about.html`](about.html) | Project entry/configuration file |
+| [`contact.html`](contact.html) | Project entry/configuration file |
+| [`index.html`](index.html) | Project entry/configuration file |
+| [`products.html`](products.html) | Project entry/configuration file |
+| [`services.html`](services.html) | Project entry/configuration file |
 
-### Product Pages
-- Detailed product specifications
-- Quality standards and certifications
-- Export process explanation
-- Pricing inquiry forms
-- Product statistics
+## Commands and checks
 
-### Service Pages
-- Comprehensive service descriptions
-- Process timelines
-- Success statistics
-- Customer testimonials
-- Contact forms
+No automated test command is declared in a manifest. Verify behavior through a local example run.
 
-## 🚀 Getting Started
+## Deployment
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/MOHAMMADREZAABEDINPOOR/Import-Export-Company.git
-   ```
+Publish the directory to an HTTPS static host and verify file paths and external links.
 
-2. **Open in browser**
-   - Simply open `index.html` in your web browser
-   - Or use a local server for development
+## Limitations
 
-3. **Customize**
-   - Edit HTML files for content
-   - Modify CSS files for styling
-   - Update JavaScript for functionality
+A static contact form does not by itself deliver email. Add a form backend if required. Product/company claims and image rights need review by the site owner.
 
-## 📞 Contact Information
+## Troubleshooting
 
-- **Phone**: +98-21-12345678
-- **Email**: info@exportcompany.ir
-- **Address**: Tehran, Valiasr Street, No. 123
-- **Website**: [Export Company](https://github.com/MOHAMMADREZAABEDINPOOR/Import-Export-Company)
+- Missing packages: install dependencies using the project’s package manager.
+- API/network failure: check the configured origin, provider and hosting bindings.
+- Old assets: rebuild when a build script exists, then clear the browser cache.
 
-## 🌟 Why Choose Us?
+## Contributing
 
-- ✅ **15+ Years Experience** in international trade
-- ✅ **Global Network** of partners in 40+ countries
-- ✅ **Quality Assurance** with international standards
-- ✅ **24/7 Support** for all clients
-- ✅ **Competitive Pricing** for all services
-- ✅ **On-time Delivery** guaranteed
+Create a focused branch, verify the affected behavior and explain the change clearly. Keep private data, build outputs and local databases out of commits.
 
-## 📈 Company Statistics
+## License
 
-- 🏭 **500+** Product types exported
-- 🌍 **40+** Countries served
-- 🚢 **2500+** Shipments completed
-- 👥 **1000+** Satisfied customers
-- 📅 **15+** Years of experience
-- 🤝 **150+** Business partners
-
-## 🏆 Certifications & Standards
-
-- **ISO 9001:2015** - Quality Management
-- **ISO 14001** - Environmental Management
-- **OHSAS 18001** - Occupational Health & Safety
-- **CE Marking** - European Standards
-- **FDA Approval** - Food & Drug Administration
-- **Halal Certificate** - Islamic Standards
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📧 Support
-
-For support, email info@exportcompany.ir or join our Slack channel.
+No repository-level license file is included in this snapshot. Public visibility alone does not grant reuse rights; contact the repository owner for terms.
 
 ---
 
-<div align="center">
-
-**🌟 Star this repository if you find it helpful! 🌟**
-
-Made with ❤️ by [Export Company Team](https://github.com/MOHAMMADREZAABEDINPOOR)
-
-</div>
+Part of **PIMX** · Documentation in English and Persian.
