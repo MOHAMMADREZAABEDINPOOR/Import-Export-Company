@@ -10,6 +10,12 @@
 
 # 🚢 TRADE & CONNECTION
 
+<!-- pimx-live-site:start -->
+## وب‌سایت آنلاین
+
+**[مشاهدهٔ Import-Export-Company ↗](https://amirhosseini.pages.dev/)**
+<!-- pimx-live-site:end -->
+
 وب‌سایت چندصفحه‌ای شرکت واردات و صادرات با HTML، CSS و JavaScript؛ پوشه محلی پروژه `Mr.Amirhosseini` است.
 
 [GitHub](https://github.com/MOHAMMADREZAABEDINPOOR/Import-Export-Company) · [PIMX / Profile](https://github.com/MOHAMMADREZAABEDINPOOR) · [بنر ثابت](assets/readme/hero.png)
